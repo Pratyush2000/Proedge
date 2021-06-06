@@ -1,0 +1,53 @@
+* {
+  color: rgb(204, 162, 47);
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.front {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.front label {
+  text-align: top;
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+}
+.front h1 {
+  font-size: 50px;
+  color: #a82e0f;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.front input {
+  width: 100%;
+  height: 50%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.front button {
+  background: #f1a635;
+  color: rgb(19, 10, 10);
+  border: 0;
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.front button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.front button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
